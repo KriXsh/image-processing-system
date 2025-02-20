@@ -37,10 +37,16 @@ npm install
 ### **3️⃣ Configure Environment Variables**
 Create a `.env` file in the project root and add the following:
 ```sh
+NODE_ENV= "dev"
 PORT=3000
-MONGO_URI=mongodb://localhost:27017/image-processing
+TOKEN= "avvbbsgggggssscc666ss"
+VERSIONS= "v1, v2"
+MONGO_DB = "db_name"
+MONGO_DB_WRITER=mongodb://localhost:27017/image-processing
+MONGO_DB_READER=mongodb://localhost:27017/image-processing
 AWS_ACCESS_KEY=your-access-key
 AWS_SECRET_KEY=your-secret-key
+AWS_REGION = "region_of_s3"
 AWS_S3_BUCKET=your-s3-bucket-name
 WEBHOOK_URL=https://your-webhook-url.com/notify
 ```
